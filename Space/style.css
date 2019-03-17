@@ -193,7 +193,7 @@ canvas {
     left: -50%;
     width: 50%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.95);
+    background: rgba(22, 21, 21, 0.95);
     transition: 0.5s;
     text-transform: uppercase;
     z-index: 300;
