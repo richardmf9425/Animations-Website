@@ -1,0 +1,14 @@
+{
+  "name": "cargame",
+  "version": "1.0.0",
+  "description": "smartphone",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RIchard",
+  "license": "ISC",
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}
