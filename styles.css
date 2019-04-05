@@ -302,15 +302,19 @@ h2 span {
 	0% {
 		width: 0%;
 	}
+
 	25% {
 		width: 24%;
 	}
+
 	50% {
 		width: 48%;
 	}
+
 	75% {
 		width: 72%;
 	}
+
 	100% {
 		width: 96%;
 	}
@@ -329,6 +333,7 @@ h2 span {
 		background: #fff;
 		opacity: .3;
 	}
+
 	100% {
 		background: #fff;
 		opacity: 1;
@@ -340,6 +345,7 @@ h2 span {
 		background: #fff;
 		opacity: .3;
 	}
+
 	100% {
 		background: #fff;
 		opacity: 1;
@@ -554,4 +560,24 @@ h2 span {
 	transform: scaleX(1);
 	transform-origin: left;
 	transition: transform 0.5s;
+}
+
+
+@media (max-width: 768px) {
+
+
+	.sidebar ul li a:hover {
+		letter-spacing: 0px;
+	}
+
+	.toggle {
+		width: 40px;
+		height: 40px;
+		right: -40px;
+	}
+
+	.toggle:before {
+		width: 15px;
+		height: 15px;
+	}
 }

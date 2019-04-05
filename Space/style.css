@@ -27,9 +27,9 @@ canvas {
 	top: 400px;
 	margin: 0 auto;
 	margin-left: 40vw;
-	position: relative;
+	position: fixed;
 	padding: 40px;
-	z-index: 8;
+	z-index: 100;
 }
 
 .sun {
